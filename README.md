@@ -16,7 +16,6 @@ At startup, you can configure the duration of both modes:
 
 Both periods are configurable in 5-minute intervals. An onboard buzzer also plays a customizable jingle when the device powers up or when switching between modes.  
 
----
 
 ## Repository Contents
 
@@ -25,7 +24,6 @@ Both periods are configurable in 5-minute intervals. An onboard buzzer also play
 - **buzzer_music.py** – Module that plays music sequences (from [onlinesequencer.net](https://onlinesequencer.net)) through the onboard buzzer. Created by **james1236**. Original module available [here](https://github.com/james1236/buzzer_music).  
 - **music_options.py** – Stores the different jingles played depending on jumper configuration. Jingles can be customized (see tutorial below).  
 
----
 
 ## Tutorials
 Below are tutorials on how to flash firmware to the kit and how to customize jingles.  
@@ -53,7 +51,6 @@ The default jingles are stored in **music_options.py**. There are four possible 
 
 You can find hardware design for this board in the Soldered Pomodoro Solder Kit repository.
 
----
 
 ## About Soldered
 
@@ -71,7 +68,6 @@ Soldered invests vast amounts of time into hardware & software for these product
 
 Check license details in the LICENSE file. Long story short, use these open-source files for any purpose you want to, as long as you apply the same open-source licence to it and disclose the original source. No warranty - all designs in this repository are distributed in the hope that they will be useful, but without any warranty. They are provided "AS IS", therefore without warranty of any kind, either expressed or implied. The entire quality and performance of what you do with the contents of this repository are your responsibility. In no event, Soldered (TAVU) will be liable for your damages, losses, including any general, special, incidental or consequential damage arising out of the use or inability to use the contents of this repository.
 
----
 
 ## Have fun!
 
