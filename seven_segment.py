@@ -3,6 +3,8 @@
 # BRIEF: A beginner-friendly MicroPython module for driving a 7-segment
 #        multiplexed display (used by the Soldered Pomodoro Timer kit).
 # LAST UPDATED: 2025-09-16
+# 
+# 2025-12-27 Edited to have more characters for chess timer by Kevin Moerman @kevin-mattheus-moerman
 
 import machine
 import time

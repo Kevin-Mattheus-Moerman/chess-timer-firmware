@@ -37,6 +37,7 @@ Example:
 This plays C4 for 2 beats, E4 for 2 beats starting at beat 2, and G4 for 4 beats starting at beat 4.
 
 """
+# 2025-12-27 Edited to have Star Wars inspired sounds by Kevin Moerman @kevin-mattheus-moerman
 
 # Default musical sequences (played when no jumpers are connected)
 # Create your own at OnlineSequencer.net and paste the exported Arduino code here

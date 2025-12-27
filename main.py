@@ -4,6 +4,8 @@
 #           Handles user interaction (buttons), countdown logic, LED colors,
 #           buzzer jingles, and 7-segment display updates.
 # LAST UPDATED: 2025-09-16
+#
+# 2025-12-27 Edited to be a chess timer by Kevin Moerman @kevin-mattheus-moerman
 
 import time
 import machine
