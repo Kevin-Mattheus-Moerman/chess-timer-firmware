@@ -1,7 +1,9 @@
 # Chess timer firmware
 This repository contains the firmware to configure your [Soldered Pomodoro Timer Solder Kit](https://www.solde.red/333348) as a chess timer. 
 
-![Introduction video](assets/chess_timer.mp4)
+<video width="50%"  controls>
+  <source src="assets/chess_timer.mp4" type="video/mp4">
+</video>
 
 The firmware was originally forked from the [Soldered Pomodoro Solder Kit firmware](https://github.com/SolderedElectronics/pomodoro-timer-firmware) repository. For more information on the hardware and software setup please refer to this original repository. 
 
