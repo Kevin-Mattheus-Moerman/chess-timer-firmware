@@ -8,5 +8,7 @@ The firmware was originally forked from the [Soldered Pomodoro Solder Kit firmwa
 
 The following main changes were made: 
 * Changed code to be a chess timer rather than Pomodoro timer
+* Added more 7-segment display characters
+* Added 7-segment display string streaming to enable animations.
 * Added Star Wars inspired sounds, created using [onlinesequencer](https://onlinesequencer.net/).
-* Minor fixes to code, such as errors relating to playing sounds
+* Minor fixes to code, such as errors relating to playing sounds (made code wait for sounds to complete playing).
