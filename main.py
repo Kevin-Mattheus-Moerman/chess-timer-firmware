@@ -110,7 +110,6 @@ def countdown(seconds, paused_flag, led_color):
     """Counts down the seconds of a given mode and changes the 7-segment display
        to show it
     """
-    start_seconds = seconds
     led_low = False
     done_flag = False
     display.set_decimal_point(1, True) # Set middle decimal point on
@@ -161,7 +160,7 @@ def countdown(seconds, paused_flag, led_color):
                     break
 
                 if blink_on:
-                    display.write(frame)
+                    display_time(seconds)
                 else:
                     display.clear()
 
@@ -170,12 +169,8 @@ def countdown(seconds, paused_flag, led_color):
             seconds -= 1  # move to next second
             
     display.clear() # Clear display
-    time_diff = start_seconds - seconds
-    if time_diff<=2:
-        return seconds + 2
-    else:
-        return seconds
-    
+
+    return seconds + 2
 
 def set_times():
     # Default Chess timer: 
