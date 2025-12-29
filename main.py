@@ -169,8 +169,11 @@ def countdown(seconds, paused_flag, led_color):
             seconds -= 1  # move to next second
             
     display.clear() # Clear display
-
-    return seconds + 2
+    if seconds<=0: # If done
+        return seconds
+    else:
+        return seconds + 2
+        
 
 def set_times():
     # Default Chess timer: 
